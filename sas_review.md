@@ -7,9 +7,8 @@ assign a Libref  `LIBNAME libref 'sas-data-library'<options>`
 
 ## 2. Understanding DATA step
 
-quiz1 use the two data sets('count' and 'summary') as below  to output 'percent' data set on the right side.
-
-![1](res\1.png)
+quiz1 use the two data sets('count' and 'summary') as below  to output 'percent' data set on the right side.  
+![1.png](https://raw.githubusercontent.com/Lion0707/Pic_repo/master/mdImage1.png)
 ***
 **A:**
 
@@ -24,7 +23,7 @@ run;
 ***
 quiz2 Please make a judgement which of following codes is valid.  
 
-![2](res\2.png)  
+![2.png](https://raw.githubusercontent.com/Lion0707/Pic_repo/master/MDImg2.png)
 **A:**
 
 ```sas
@@ -59,7 +58,10 @@ run;
 ## 3. Combining data set
 
 quiz1. merge two data set and divide the value of variable 'weight' by 2  
-  <div align=center>  <img src="res\3.png" /> </div>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Lion0707/Pic_repo/master/MDImg3.png" width = "300" height = "300" />
+</div>
 
 ```sas
 data dt;
@@ -663,5 +665,4 @@ QUIT;
 ```
 
 Functions used in proc sql.
-
 

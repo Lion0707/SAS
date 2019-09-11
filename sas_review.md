@@ -60,6 +60,7 @@ run;
 
 quiz1. merge two data set and divide the value of variable 'weight' by 2  
   <div align=center>  <img src="res\3.png" /> </div>
+
 ```sas
 data dt;
     merge vital demog;
@@ -101,6 +102,7 @@ run;
 quiz3 Combine dataset a b and c d to generate dataset "result".  
 
 <div align=center> <img src="res\6.png" /> <img src="res\7.png"></div>
+
 ```sas  
 
 data result;
@@ -122,6 +124,7 @@ run;
 quiz1 transpose data "summary" to compute two variables "diff13" and "diff23"
 
 <div align=center> <img src="res\8.png" /></div>
+
 ```sas  
 
 proc transpose data=summary out=trans1 prefix=group;
@@ -171,6 +174,7 @@ run;
 
 quiz2 Find in the missing data and replace it with the variable 'makeup'
 <div align=center> <img src="res\9.png" /> </div>
+
 ```sas
 /*quiz 2 */
 data score;
@@ -266,6 +270,7 @@ run;
 quiz1 Use the function to calculate the variable “value” according to SAS data set “quiz1” and algorithm as below.  
 
 <div align=center> <img src="res\12.png" /> </div>
+
 ```sas
 data result1;
     length value $10.;
@@ -278,6 +283,7 @@ data result1;
 
 quiz2 Use to function to calculate decimal place of variable “aval” .  
 <div align=center> <img src="res\13.png" /> </div>
+
 ```sas
 data quiz2;
     input id$ aval;
@@ -302,9 +308,11 @@ data result2;
 	left() 除去左边的空格  length()计算长度*/
 run;
 ```
+
 quiz2 use function to calculate the demical place of variable "aval".
 
 <div align=center> <img src="res\14.png" /> </div>
+
 ```sas
 data quiz2;
     input id$ aval;
@@ -365,6 +373,7 @@ run;
 quiz4 The area of a given rectangle is 18. Please calculate the area of the shaded area.
 
 <div align=center> <img src="res\15.png" /> </div>
+
 ```sas
 data _null_;
     radius=sqrt(18/2);
@@ -378,7 +387,9 @@ the radius of the circle is 3 the area of half circle is:14.137166941
 the area of the shade is 3.8628330588
 */
 ```
+
 ***
+
 >### SAS Fucntion Summary
 
 
@@ -559,6 +570,7 @@ To ensure these macro variables are valid outside of the function;
 quiz4. We have below codes, Please complete macro test 2 to  output  results below in log file.
 
 ```sas
+
 %macro test1;
      %put <-------------it is test1!;
 %mend test1;
@@ -633,5 +645,23 @@ run;
 |5|
 */    
 ```
+
+## 7. proc SQL
+
+general format
+
+```sas
+PROC SQL <OPTIONS>;
+    <CREATE TABLE table-name AS>
+    SELECT column-1<,...column-n>
+    FROM table-1|view-1<,..table-n|view-n>
+    <WHERE expression>
+    <GROUP BY column-1<,..column-n>>
+    <HAVING expression>
+    <ORDER BY column-1<,...column-n>>;
+QUIT;
+```
+
+Functions used in proc sql.
 
 

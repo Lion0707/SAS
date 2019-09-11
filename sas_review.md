@@ -77,9 +77,12 @@ run;
 ***
 
 quiz2. use the ruler to combine two data set.  
-<div align=center>  <img src="res\4.png" />  
- <img src="res\5.png" />  
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Lion0707/Pic_repo/master/MDImg4.png" width = "300" height = "300" />
+<img src="https://raw.githubusercontent.com/Lion0707/Pic_repo/master/MDImg5.png" width = "550" height = "200" />
 </div>
+
 
 ```sas
 proc sort data = health;
@@ -102,8 +105,11 @@ run;
 
 ***
 quiz3 Combine dataset a b and c d to generate dataset "result".  
+<div align="center">
+<img src="https://raw.githubusercontent.com/Lion0707/Pic_repo/master/MDImg6.png" width = "250" height = "300" />
+<img src="https://raw.githubusercontent.com/Lion0707/Pic_repo/master/MDImg7.png" width = "250" height = "150" />
+</div>
 
-<div align=center> <img src="res\6.png" /> <img src="res\7.png"></div>
 
 ```sas  
 
@@ -125,7 +131,10 @@ run;
 
 quiz1 transpose data "summary" to compute two variables "diff13" and "diff23"
 
-<div align=center> <img src="res\8.png" /></div>
+<div align="center">
+<img src="https://raw.githubusercontent.com/Lion0707/Pic_repo/master/MDImg8.png" width = "650" height = "150" />
+</div>
+
 
 ```sas  
 
@@ -175,7 +184,8 @@ run;
 ```
 
 quiz2 Find in the missing data and replace it with the variable 'makeup'
-<div align=center> <img src="res\9.png" /> </div>
+
+<div align="center"> <img src="https://raw.githubusercontent.com/Lion0707/Pic_repo/master/MDImg9.png" /> </div>
 
 ```sas
 /*quiz 2 */
@@ -205,7 +215,7 @@ run;
 
 quiz3 Fill the missing data in data set "Score" with LOCF(Last Observation carried forward)method.  
 
-<div align=center> <img src="res\10.png" /> </div>
+<div align=center> <img src="https://raw.githubusercontent.com/Lion0707/Pic_repo/master/MDImg10.png" /> </div>
 
 ```sas
 /*quiz 3 */
@@ -233,7 +243,8 @@ run;
 
 quiz4 Add temporary missing categories for data set "meanc" to generate data set "result" as below.  
 
-<div align=center> <img src="res\11.png" /> </div>
+<div align=center> <img src="https://raw.githubusercontent.com/Lion0707/Pic_repo/master/MDImg11.png" /> </div>
+
 
 ```sas
 data meanc;
@@ -271,7 +282,8 @@ run;
 
 quiz1 Use the function to calculate the variable “value” according to SAS data set “quiz1” and algorithm as below.  
 
-<div align=center> <img src="res\12.png" /> </div>
+<div align=center> <img src="https://raw.githubusercontent.com/Lion0707/Pic_repo/master/MDImg12.png" /> </div>
+
 
 ```sas
 data result1;
@@ -284,7 +296,8 @@ data result1;
 ```
 
 quiz2 Use to function to calculate decimal place of variable “aval” .  
-<div align=center> <img src="res\13.png" /> </div>
+<div align=center> <img src="https://raw.githubusercontent.com/Lion0707/Pic_repo/master/MDImg13.png" /> </div>
+
 
 ```sas
 data quiz2;
@@ -313,7 +326,7 @@ run;
 
 quiz2 use function to calculate the demical place of variable "aval".
 
-<div align=center> <img src="res\14.png" /> </div>
+<div align=center> <img src="https://raw.githubusercontent.com/Lion0707/Pic_repo/master/MDImg14.png" /> </div>
 
 ```sas
 data quiz2;
@@ -374,7 +387,8 @@ run;
 
 quiz4 The area of a given rectangle is 18. Please calculate the area of the shaded area.
 
-<div align=center> <img src="res\15.png" /> </div>
+<div align=center> <img src="https://raw.githubusercontent.com/Lion0707/Pic_repo/master/MDImg15.png" /> </div>
+
 
 ```sas
 data _null_;
